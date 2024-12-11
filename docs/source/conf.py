@@ -33,7 +33,7 @@ intersphinx_disabled_domains = ['std']
 
 templates_path = ['_templates']
 
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'furo'
 
 html_theme_options = {
     'display_version': True,
