@@ -1,11 +1,10 @@
 Installation guide
 ==================
 
-*********************
 How to install DIRAC
-*********************
+====================
 
-To install DIRAC, make sure you have [PyTorch](https://pytorch.org/) and [PyG](https://pyg.org/) installed. 
+To install DIRAC, make sure you have [PyTorch](https://pytorch.org/) and [PyG](https://pyg.org/) installed.
 
 Step 1: Set Up Conda Environment
 ---------------------------------
@@ -32,6 +31,7 @@ Activate the environment and install PyTorch and PyG. Adjust the installation co
     is recommended.
 
 Now you are all set. Proceed to `tutorials <tutorials.rst>`__ for how to use the ``DIRAC`` package.
+
 
 
 
