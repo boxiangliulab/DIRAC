@@ -20,6 +20,8 @@ Activate the environment and install PyTorch and PyG. Adjust the installation co
 * General Installation Command
 
 .. code-block:: bash
+    :linenos:
+
     conda activate dirac-env
     pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu118
     pip install pyg_lib==0.3.1+pt21cu118 torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
