@@ -33,6 +33,7 @@ For more details about the DIRAC framework, please check out our `publication <h
 
    install
    tutorials
+   api
    credits
    Github <https://github.com/boxiangliulab/DIRAC>
 
