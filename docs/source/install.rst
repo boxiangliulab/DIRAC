@@ -1,7 +1,7 @@
 Installation Guide
 ==================
 
-To install DIRAC, you must first have [PyTorch](https://pytorch.org/) and [PyTorch Geometric (PyG)](https://pyg.org/) installed.
+To install DIRAC, you must first have `PyTorch <https://pytorch.org/>`_ and `PyTorch Geometric (PyG) <https://pyg.org/>`_ installed.
 
 Step 1: Set Up Conda Environment
 ---------------------------------
