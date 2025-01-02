@@ -26,17 +26,6 @@ Activate the environment and install PyTorch and PyG. Adjust the installation co
     pip install pyg_lib==0.3.1+pt21cu118 torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
     pip install torch_geometric==2.3.1
 
-************
-Main package
-************
-
-The ``DIRAC`` package can be installed via conda using one of the following commands:
-
-.. code-block:: bash
-    :linenos:
-
-    pip install sodirac
-
 .. note::
     To avoid potential dependency conflicts, installing within a
     `conda environment <https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html>`__
