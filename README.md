@@ -17,7 +17,7 @@ DIRAC is a graph neural network to integrate spatial multi-omic data into a unif
 DIRAC primarily includes two integration paradigms: vertical integration and horizontal integration, which differ in their selection of anchors. In vertical integration, multiple data modalities from the same cells are jointly analyzed, using cell correspondences in single-cell data or spot correspondences in spatial data as anchors for alignment. In horizontal integration, the same data modality from distinct groups of cells is aligned using genomic features as anchors. The best way to familiarize yourself with DIRAC is to check out [our tutorial](https://github.com/EsdenRun/DIRAC/tree/main/docs/source/notebooks) and [our documentation](https://dirac-tutorial.readthedocs.io/en/latest/).
 
 
-![Model architecture](https://raw.githubusercontent.com/boxiangliulab/DIRAC/main/docs/_static/Workflow.png)
+![Model architecture](https://raw.githubusercontent.com/boxiangliulab/DIRAC/main/docs/source/_static/Workflow.png)
 
 For more details, please check out our [publication](https://github.com/EsdenRun/DIRAC).
 
