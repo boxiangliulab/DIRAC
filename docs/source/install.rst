@@ -8,6 +8,8 @@ To install DIRAC, make sure you have [PyTorch](https://pytorch.org/) and [PyG](h
 
 Step 1: Set Up Conda Environment
 ---------------------------------
+To set up the environment, run the following command:
+
 .. code-block:: bash
     :linenos:
 
@@ -70,6 +72,7 @@ To use DIRAC in your code, import it as follows:
 
 .. code-block:: python
     import sodirac as sd
+
 
 
 .. note::
