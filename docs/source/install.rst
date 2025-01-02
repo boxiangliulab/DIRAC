@@ -33,6 +33,9 @@ Now you are all set. Proceed to `tutorials <tutorials.rst>`__ for how to use the
 
 
 
+How to Install DIRAC
+====================
+
 To install DIRAC, ensure that you have [PyTorch](https://pytorch.org/) and [PyG](https://pyg.org/) installed. For more details on dependencies, refer to the `environment.yml` file.
 
 Step 1: Set Up Conda Environment
@@ -95,3 +98,8 @@ To use DIRAC in your code, import it as follows:
 
 .. code-block:: python
     import sodirac as sd
+
+Note:
+-----
+It is recommended to install DIRAC within a [conda environment](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html).
+
