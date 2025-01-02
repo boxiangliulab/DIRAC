@@ -39,5 +39,3 @@ Table of Contents
    api
    credits
    Github <https://github.com/boxiangliulab/DIRAC>
-
-
