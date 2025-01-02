@@ -31,8 +31,9 @@ Activate the environment and install PyTorch and PyG. Adjust the installation co
 
   To verify your CUDA version, you can run:
 
-  .. code-block:: bash
-      nvcc --version
+.. code-block:: bash
+    :linenos:
+    nvcc --version
 
   Alternatively, use:
 
