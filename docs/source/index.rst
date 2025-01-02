@@ -32,7 +32,6 @@ Table of Contents
 =================
 .. toctree::
    :maxdepth: 2
-   :caption: General
 
    install
    tutorials
