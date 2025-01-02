@@ -50,7 +50,6 @@ Alternatively, use:
 --------------------------------------------------
 
 - For CUDA 12.1
-  --------------
 
   .. code-block:: bash
       pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu121
@@ -58,13 +57,11 @@ Alternatively, use:
       pip install torch_geometric==2.3.1
 
 - For CPU-only Installation
-  --------------------------
 
   .. code-block:: bash
       pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cpu
       pip install pyg_lib==0.3.1+pt21cpu torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.1.0+cpu.html
       pip install torch_geometric==2.3.1
-
 
 
 Step 3: Install DIRAC
