@@ -80,8 +80,6 @@ To use DIRAC in your code, import it as follows:
 .. code-block:: python
     import sodirac as sd
 
-
-
 .. note::
     To avoid potential dependency conflicts, installing within a
     `conda environment <https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html>`__
