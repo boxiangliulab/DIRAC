@@ -34,6 +34,6 @@ For more details about the DIRAC framework, please check out our `publication <h
    install
    tutorials
    credits
-   Github <https://github.com/liuxiaZzz/DIRAC_test>
+   Github <https://github.com/boxiangliulab/DIRAC>
 
 
