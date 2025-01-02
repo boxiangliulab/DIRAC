@@ -29,16 +29,17 @@ Activate the environment and install PyTorch and PyG. Adjust the installation co
 
 * Tips for Selecting the Correct CUDA Version
 
-  To verify your CUDA version, you can run:
+To verify your CUDA version, you can run:
 
 .. code-block:: bash
     :linenos:
     nvcc --version
 
-  Alternatively, use:
+Alternatively, use:
 
-  .. code-block:: bash
-      nvidia-smi
+.. code-block:: bash
+    :linenos:
+    nvidia-smi
 
 * Modify Installation Commands Based on CUDA Version
 
