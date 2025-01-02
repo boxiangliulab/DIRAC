@@ -30,20 +30,24 @@ Activate the environment and install PyTorch and PyG. Adjust the installation co
     pip install torch_geometric==2.3.1
 
 * Tips for Selecting the Correct CUDA Version
+---------------------------------------------
 
 To verify your CUDA version, you can run:
 
 .. code-block:: bash
     :linenos:
+    
     nvcc --version
 
 Alternatively, use:
 
 .. code-block:: bash
     :linenos:
+
     nvidia-smi
 
 * Modify Installation Commands Based on CUDA Version
+--------------------------------------------------
 
   - For CUDA 12.1
 
@@ -61,6 +65,7 @@ Alternatively, use:
 
 Step 3: Install DIRAC
 ----------------------
+
 To install DIRAC, run the following command:
 
 .. code-block:: bash
@@ -68,6 +73,7 @@ To install DIRAC, run the following command:
 
 Step 4: Import DIRAC in Your Jupyter Notebooks or Scripts
 --------------------------------------------------------
+
 To use DIRAC in your code, import it as follows:
 
 .. code-block:: python
