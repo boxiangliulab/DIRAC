@@ -52,6 +52,7 @@ Alternatively, use:
 - For CUDA 12.1
 
   .. code-block:: bash
+    :linenos:
       pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cu121
       pip install pyg_lib==0.3.1+pt21cu121 torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.1.0+cu121.html
       pip install torch_geometric==2.3.1
@@ -59,6 +60,7 @@ Alternatively, use:
 - For CPU-only Installation
 
   .. code-block:: bash
+    :linenos:
       pip install torch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 --index-url https://download.pytorch.org/whl/cpu
       pip install pyg_lib==0.3.1+pt21cpu torch_scatter torch_sparse torch_cluster torch_spline_conv -f https://data.pyg.org/whl/torch-2.1.0+cpu.html
       pip install torch_geometric==2.3.1
@@ -70,6 +72,7 @@ Step 3: Install DIRAC
 To install DIRAC, run the following command:
 
 .. code-block:: bash
+    :linenos:
     pip install sodirac
 
 Step 4: Import DIRAC in Your Jupyter Notebooks or Scripts
@@ -78,6 +81,7 @@ Step 4: Import DIRAC in Your Jupyter Notebooks or Scripts
 To use DIRAC in your code, import it as follows:
 
 .. code-block:: python
+    :linenos:
     import sodirac as sd
 
 .. note::
