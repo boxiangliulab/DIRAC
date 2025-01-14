@@ -8,5 +8,5 @@ Tutorials
 .. nbgallery::
    notebooks/run_DIRAC_DBit-seq.ipynb
    notebooks/run_DIRAC_on_DLPFC.ipynb
-   notebooks/run_DIRAC_mouse_spleen_bin100.ipynb
-   notebooks/run_DIRAC_mouse_spleen_cellbin.ipynb
+   notebooks/run_C03833D6_bin100_bin50-mouse_spleen.ipynb
+   notebooks/run_C03833D6_cellbin_annotation-mouse_spleen.ipynb
