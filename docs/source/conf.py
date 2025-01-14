@@ -51,6 +51,7 @@ html_static_path = ["_static"]
 nbsphinx_thumbnails = {
     "notebooks/run_DIRAC_DBit-seq": "_static/tutorial_figs/notebooks_run_DIRAC_DBit-seq_22_0.png",
     "notebooks/run_DIRAC_on_DLPFC": "_static/tutorial_figs/notebooks_run_DIRAC_on_DLPFC_9_1.png",
+    "notebooks/run_A02677B5_bin100_bin50-mouse_thymus": "_static/tutorial_figs/1.png",
     "notebooks/run_C03833D6_bin100_bin50-mouse_spleen": "_static/tutorial_figs/notebooks_run_DIRAC_mouse_spleen_bin100_33_1.png",
     "notebooks/run_C03833D6_cellbin_annotation-mouse_spleen": "_static/tutorial_figs/notebooks_run_DIRAC_mouse_spleen_cellbin_26_2.png",
 }
