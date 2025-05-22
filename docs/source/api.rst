@@ -5,7 +5,7 @@ API Documentation
    :maxdepth: 2
    :caption: API
 
-.. automodule:: sodirac.utils
+.. automodule:: sodirac.main
    :members:
    :undoc-members:
    :show-inheritance:
