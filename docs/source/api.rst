@@ -1,12 +1,9 @@
-API Documentation
+API
 =================
 
 .. toctree::
    :maxdepth: 2
    :caption: API
 
-.. automodule:: sodirac.main
-   :members:
-   :undoc-members:
-   :private-members:
-   :show-inheritance:
+   integrate_app
+   annotate_app
