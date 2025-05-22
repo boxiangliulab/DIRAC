@@ -5,7 +5,7 @@ Welcome to the DIRAC API documentation.
 Below are the main components of the DIRAC application interface:
 
 - **Integrate App**: Used for multi-omics integration tasks.
-- **Annotate App**: Used for supervised or semi-supervised cell type annotation.
+- **Annotate App**: Used for cell type annotation.
 
 .. toctree::
    :maxdepth: 1
