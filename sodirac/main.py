@@ -26,6 +26,17 @@ from .hyper import *
 #########################################################
 
 class integrate_app():
+    """
+    Application class for integrating multi-omics or spatial data using DIRAC.
+
+    This class provides methods to process graph data, build GNN models,
+    and train integration models on the input datasets.
+
+    Attributes:
+        device (torch.device): The device used for training (CPU or GPU).
+        subgraph (bool): Whether to use subgraph partitioning for large graphs.
+        save_path (str): Path to store output files.
+    """
     def __init__(
         self,
         save_path: str = './Results/',
@@ -176,6 +187,21 @@ class integrate_app():
         stochastic_depth_rate = 0.1,
         combine_method = 'concat',  # 'concat', 'sum', 'attention'
         ):
+
+        """
+        Builds the DIRAC integration model based on the input samples and GNN settings.
+
+        Args:
+            samples (dict): Output from `_get_data`, containing input dimensions and domains.
+            n_hiddens (int): Number of hidden units in GNN.
+            n_outputs (int): Output feature size for embedding.
+            opt_GNN (str): GNN type to use (e.g., "GAT", "GCN").
+            ...
+
+        Returns:
+            nn.Module: The initialized integration model.
+        """
+            
         ##### Build a transfer model to conver atac data to rna shape 
         models = integrate_model(n_inputs_list = samples["n_inputs_list"], 
                             n_domains = samples["n_domains"],
@@ -208,6 +234,21 @@ class integrate_app():
         lamb: float = 5e-4, 
         scale_loss: float = 0.025,
         ):
+
+        """
+        Trains the DIRAC integration model on input data.
+
+        Args:
+            samples (dict): Processed graph data from `_get_data`.
+            models (nn.Module): Model built using `_get_model`.
+            epochs (int): Number of training epochs.
+            optimizer_name (str): Optimizer name (e.g., "adam").
+            ...
+
+        Returns:
+            Tuple[torch.Tensor, torch.Tensor]: Integrated latent features and reconstruction outputs.
+        """
+            
         ######### load all dataloaders and dist arrays
         hyperparams = unsuper_hyperparams(lr = lr, tau = tau, wd = wd, scheduler = scheduler)
         un_dirac = train_integrate(
@@ -230,6 +271,13 @@ class integrate_app():
         return data_z, combine_recon
 
 class annotate_app(integrate_app):
+    """
+    Application class for supervised or semi-supervised cell type annotation
+    using the DIRAC framework, with support for novel cell type discovery.
+
+    Inherits from:
+        integrate_app
+    """
     def _get_data(
         self,
         source_data,
@@ -438,6 +486,25 @@ class annotate_app(integrate_app):
             filter_low_confidence: bool = True,
             confidence_threshold: float = 0.5,
         ):
+
+        """
+        Trains the annotation model using labeled source data and unlabeled target data.
+
+        Args:
+            samples (dict): Contains source/target graphs and metadata.
+            models (nn.Module): Annotation model initialized with `_get_model`.
+            n_epochs (int): Number of training epochs.
+            optimizer_name (str): Optimizer name.
+            lr (float): Learning rate.
+            wd (float): Weight decay.
+            scheduler (bool): Whether to use learning rate scheduler.
+            filter_low_confidence (bool): Whether to filter predictions by confidence threshold.
+            confidence_threshold (float): Minimum confidence to accept predicted label.
+
+        Returns:
+            dict: Dictionary of evaluation results and predictions.
+        """
+            
         def _filter_predictions_by_confidence(preds, confs):
             return np.where(confs < confidence_threshold, "unassigned", preds)
 
