@@ -33,7 +33,7 @@ class integrate_app():
     and train integration models on the input datasets.
 
     Attributes:
-        device (torch.device): The device used for training (CPU or GPU).
+        use_gpu (bool): Whether use GPU for training.
         subgraph (bool): Whether to use subgraph partitioning for large graphs.
         save_path (str): Path to store output files.
     """
@@ -275,8 +275,10 @@ class annotate_app(integrate_app):
     Application class for supervised or semi-supervised cell type annotation
     using the DIRAC framework, with support for novel cell type discovery.
 
-    Inherits from:
-        integrate_app
+    Attributes:
+        use_gpu (bool): Whether use GPU for training.
+        subgraph (bool): Whether to use subgraph partitioning for large graphs.
+        save_path (str): Path to store output files.
     """
     def _get_data(
         self,
