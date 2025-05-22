@@ -1,6 +1,9 @@
 # Configuration file for the Sphinx documentation builder.
 
 # -- Project information
+import os
+import sys
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 
 project = 'DIRAC'
 copyright = '2024, CHANG XU'
@@ -20,6 +23,13 @@ extensions = [
     'sphinx.ext.intersphinx',
     'nbsphinx',
     'nbsphinx_link',
+]
+
+autodoc_mock_imports = [
+    "numpy", "pandas", "scipy", "matplotlib", "torch",
+    "scanpy", "networkx", "sklearn", "seaborn", "statsmodels",
+    "anndata", "h5py", "plotly", "umap", "pyyaml", "torch_sparse",
+    "torch_geometric", "tqdm"
 ]
 
 nbsphinx_allow_errors = True
