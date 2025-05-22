@@ -8,4 +8,5 @@ API Documentation
 .. automodule:: sodirac.main
    :members:
    :undoc-members:
+   :private-members:
    :show-inheritance:
