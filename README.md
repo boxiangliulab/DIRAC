@@ -95,4 +95,4 @@ pip install torch_geometric==2.3.1
 ## Usage
 
 Please checkout the documentations and tutorials at
-[dirac.readthedocs.io](https://dirac-tutorial.readthedocs.io/en/latest/).
+[dirac.readthedocs.io](https://dirac-tutorial.readthedocs.io/en/latest/) and [dirac.reproducing.io](https://github.com/boxiangliulab/DIRAC_notebook).
