@@ -1,7 +1,7 @@
 API Reference
 =============
 
-Welcome to the DIRAC API documentation.  
+Welcome to the DIRAC API documentation.
 Below are the main components of the DIRAC application interface:
 
 - **Integrate App**: Used for multi-omics integration tasks.
@@ -9,7 +9,7 @@ Below are the main components of the DIRAC application interface:
 
 .. toctree::
    :maxdepth: 1
-   :caption: API Classes
+   :caption: Modules
 
-   integrate_app
-   annotate_app
+   main
+   utils
