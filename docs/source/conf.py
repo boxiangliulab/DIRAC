@@ -59,8 +59,8 @@ epub_show_urls = 'footnote'
 html_static_path = ["_static"]
 
 nbsphinx_thumbnails = {
-    "notebooks/run_NSF": "_static/tutorial_figs/NSF.png",
-    "notebooks/run_scMultiSim": "_static/tutorial_figs/scMultiSim.png",
+    "notebooks/run-NSF": "_static/tutorial_figs/NSF.png",
+    "notebooks/run-scMultiSim": "_static/tutorial_figs/scMultiSim.png",
     "notebooks/run-Glioblastoma": "_static/tutorial_figs/Glioblastoma.png",
     "notebooks/run-AD-samples": "_static/tutorial_figs/AD.png",
 }
