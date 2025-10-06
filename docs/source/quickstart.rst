@@ -1,6 +1,6 @@
 .. _tutorials:
 
-Tutorials
+QuickStart
 =========
 
 ``DIRAC`` primarily includes functionalities for both horizontal and vertical integration. This tutorial consists of the following sections:
