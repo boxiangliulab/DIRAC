@@ -9,3 +9,4 @@ Welcome to the DIRAC API documentation.
    api/main
    api/utils
    api/adj
+   api/dataprep
