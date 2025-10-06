@@ -1,11 +1,11 @@
 #!/usr/bin/env python
-"""
-# Author: ChangXu
-# Created Time : Mon 23 Apr
-# File Name: cal_graph.py
-# Description:`
+# -*- coding: utf-8 -*-
+# @Time    : 5/17/23 2:58 PM
+# @Author  : Chang Xu
+# @File    : dataprep.py
+# @Email   : changxu@nus.edu.sg
 
-"""
+
 from typing import Any, Dict, List, Tuple, Optional
 
 import numpy as np
@@ -385,3 +385,4 @@ def combine_graph_dict(dict_1: Dict[str, Any], dict_2: Dict[str, Any]) -> Dict[s
         "norm_value": float(np.mean([dict_1["norm_value"], dict_2["norm_value"]])),
     }
     return graph_dict
+
