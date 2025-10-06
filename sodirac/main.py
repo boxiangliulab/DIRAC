@@ -804,15 +804,7 @@ class annotate_app(integrate_app):
         weights: dict = {"alpha1": 1,"alpha2": 1,"alpha3": 1,"alpha4": 1,"alpha5": 1,"alpha6": 1,"alpha7": 1,"alpha8": 1}
         ):
         """Discover novel target classes and retrain with expanded label space.
-
-        Workflow
-        --------
-        1. Build a temporary ``AnnData`` from target features, run neighbors + Louvain
-           clustering (via Scanpy), then compute UMAP and save a PDF.
-        2. Supervised pretrain on source for ``pre_epochs``.
-        3. Estimate novel-class seeds; relabel target; rebuild loaders.
-        4. Expand classifier to ``n_labels + num_novel_class`` and train for ``n_epochs``.
-
+        
         Parameters
         ----------
         samples : dict
