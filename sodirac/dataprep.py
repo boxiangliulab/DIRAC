@@ -17,8 +17,6 @@ from torch_geometric.data import InMemoryDataset, Data
 
 class GraphDS(Dataset):
     """
-    Summary
-    -------
     PyTorch Dataset for single-cell/spatial profiles with optional labels and domains.
 
     Parameters
@@ -72,8 +70,6 @@ class GraphDS(Dataset):
         self, labels: Optional[Union[np.ndarray, sparse.csr_matrix]]
     ) -> tuple:
         """
-        Summary
-        -------
         Convert labels to torch tensors and one-hot encodings.
 
         Parameters
@@ -107,8 +103,6 @@ class GraphDS(Dataset):
         self, domains: Optional[Union[np.ndarray, sparse.csr_matrix]], num_domains: int
     ) -> tuple:
         """
-        Summary
-        -------
         Convert domain labels to torch tensors and one-hot encodings.
 
         Parameters
@@ -136,8 +130,6 @@ class GraphDS(Dataset):
 
     def __len__(self) -> int:
         """
-        Summary
-        -------
         Number of examples in the dataset.
 
         Returns
@@ -149,8 +141,6 @@ class GraphDS(Dataset):
 
     def __getitem__(self, idx: int) -> Dict[str, torch.Tensor]:
         """
-        Summary
-        -------
         Retrieve a single sample with optional labels/domains.
 
         Parameters
@@ -201,8 +191,6 @@ def balance_classes(
     random_state: Optional[int] = None,
 ) -> np.ndarray:
     """
-    Summary
-    -------
     Balance class indices by undersampling majorities and oversampling minorities.
 
     Parameters
@@ -251,8 +239,6 @@ def balance_classes(
 
 class GraphDataset(InMemoryDataset):
     """
-    Summary
-    -------
     In-memory PyG dataset for a *paired* graph with features, batches, domains, and labels.
 
     Parameters
@@ -319,8 +305,6 @@ class GraphDataset(InMemoryDataset):
 
     def __len__(self) -> int:
         """
-        Summary
-        -------
         Number of graphs in the dataset.
 
         Returns
@@ -332,20 +316,15 @@ class GraphDataset(InMemoryDataset):
 
     def __getitem__(self, idx: int) -> Data:
         """
-        Summary
-        -------
         Retrieve the single stored graph.
-
         Parameters
         ----------
         idx : int
             Graph index (must be 0).
-
         Returns
         -------
         graph_data : torch_geometric.data.Data
             The stored graph object.
-
         Raises
         ------
         IndexError
@@ -358,8 +337,6 @@ class GraphDataset(InMemoryDataset):
 
 class GraphDataset_unpaired(InMemoryDataset):
     """
-    Summary
-    -------
     In-memory PyG dataset for an *unpaired* graph with features, domains, and labels.
 
     Parameters
@@ -420,10 +397,7 @@ class GraphDataset_unpaired(InMemoryDataset):
 
     def __len__(self) -> int:
         """
-        Summary
-        -------
         Number of graphs in the dataset.
-
         Returns
         -------
         n : int
@@ -433,8 +407,6 @@ class GraphDataset_unpaired(InMemoryDataset):
 
     def __getitem__(self, idx: int) -> Data:
         """
-        Summary
-        -------
         Retrieve the single stored graph.
 
         Parameters
