@@ -1,7 +1,7 @@
-dirac.main
+dirac.adj
 ==========================
 
-.. automodule:: sodirac.main
+.. automodule:: sodirac.adj
    :members:
    :undoc-members:
    :private-members:
