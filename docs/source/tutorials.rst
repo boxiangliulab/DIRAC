@@ -23,4 +23,3 @@ Notebooks
 .. nbgallery::
    notebooks/run-Glioblastoma.ipynb
    notebooks/run-AD-samples.ipynb
-
