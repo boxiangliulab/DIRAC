@@ -26,6 +26,16 @@ extensions = [
     'nbsphinx_link',
 ]
 
+autosummary_generate = True
+autodoc_member_order = "bysource"
+autodoc_default_options = {
+    "members": True,
+    "undoc-members": True,
+    "show-inheritance": True,
+}
+napoleon_google_docstring = True
+napoleon_numpy_docstring = True
+
 autodoc_mock_imports = [
     "numpy", "pandas", "scipy", "matplotlib", "torch",
     "scanpy", "networkx", "sklearn", "seaborn", "statsmodels",
