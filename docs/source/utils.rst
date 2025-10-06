@@ -1,4 +1,4 @@
-Utils Module (sodirac.utils)
+dirac.utils
 ============================
 
 .. automodule:: sodirac.utils
