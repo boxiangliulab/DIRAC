@@ -8,5 +8,3 @@ Tutorials
 .. nbgallery::
    notebooks/run-NSF.ipynb
    notebooks/run-scMultiSim.ipynb
-   notebooks/run-Glioblastoma.ipynb
-   notebooks/run-AD-samples.ipynb
