@@ -1,7 +1,7 @@
-dirac.main
+dirac.dataprep
 ==========================
 
-.. automodule:: sodirac.main
+.. automodule:: sodirac.dataprep
    :members:
    :undoc-members:
    :private-members:
