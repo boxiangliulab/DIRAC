@@ -1,4 +1,4 @@
-Main Module (sodirac.main)
+dirac.main
 ==========================
 
 .. automodule:: sodirac.main
