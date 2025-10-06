@@ -60,5 +60,7 @@ html_static_path = ["_static"]
 
 nbsphinx_thumbnails = {
     "notebooks/run_NSF": "_static/tutorial_figs/notebooks_run_DIRAC_DBit-seq_22_0.png",
-    "notebooks/run_scMultiSim": "_static/tutorial_figs/notebooks_run_DIRAC_on_DLPFC.png",
+    "notebooks/run_scMultiSim": "_static/tutorial_figs/notebooks_run_DIRAC_DBit-seq_22_0.png",
+    "notebooks/run-Glioblastoma": "_static/tutorial_figs/notebooks_run_DIRAC_DBit-seq_22_0.png",
+    "notebooks/run-AD-samples": "_static/tutorial_figs/notebooks_run_DIRAC_DBit-seq_22_0.png",
 }
