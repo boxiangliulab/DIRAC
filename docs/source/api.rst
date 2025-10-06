@@ -9,7 +9,6 @@ Below are the main components of the DIRAC application interface:
 
 .. toctree::
    :maxdepth: 1
-   :caption: Modules
 
    main
    utils
