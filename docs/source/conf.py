@@ -73,4 +73,6 @@ nbsphinx_thumbnails = {
     "notebooks/run-scMultiSim": "_static/tutorial_figs/scMultiSim.png",
     "notebooks/run-Glioblastoma": "_static/tutorial_figs/Glioblastoma.png",
     "notebooks/run-AD-samples": "_static/tutorial_figs/AD.png",
+    "notebooks/DBit-seq-reproduce": "_static/tutorial_figs/AD.png",
+}
 }
