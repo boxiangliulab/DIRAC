@@ -23,3 +23,4 @@ Notebooks
 .. nbgallery::
    notebooks/run-Glioblastoma.ipynb
    notebooks/run-AD-samples.ipynb
+   notebooks/DBit-seq-reproduce.ipynb
