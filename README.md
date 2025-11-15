@@ -48,11 +48,9 @@ conda create -n dirac-env python=3.9 r-base=4.3.1 rpy2 r-mclust r-yarrr
 
 Activate the environment and install PyTorch and PyG. Adjust the installation commands based on your CUDA version or choose the CPU version if necessary.
 
-> **Important:** The commands below assume **PyTorch 2.1.0** with a **specific CUDA build**, and the
-> corresponding **PyG wheels**.  
-> The suffix in `pyg_lib` (e.g. `+pt21cu118`, `+pt21cu121`, `+pt21cpu`) **must match** the
-> PyTorch build you install. Mixing different CUDA/CPU builds will lead to errors such as  
-> “No matching distribution found for `pyg_lib==0.3.1+pt21cu118`”.
+> **Important:**
+> - The commands below assume **PyTorch 2.1.0** with a **specific CUDA build** and the corresponding **PyG wheels**.
+> - The suffix in `pyg_lib` (e.g. `+pt21cu118`, `+pt21cu121`, `+pt21cpu`) **must match** the PyTorch build you install. 
 
 * General Installation Command
 ```
