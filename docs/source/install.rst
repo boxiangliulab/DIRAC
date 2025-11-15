@@ -19,6 +19,19 @@ Step 2: Install PyTorch and PyG
 -------------------------------
 Activate the environment and install PyTorch and PyG. Make sure to adjust the installation commands based on your CUDA version, or choose the CPU-only version if necessary.
 
+.. important::
+    The commands below are examples based on **PyTorch 2.1.0**. You should choose the
+    appropriate PyTorch build (CUDA or CPU) according to your own server hardware
+    and driver setup.
+
+    We recommend first selecting and installing PyTorch by following the official
+    instructions at `PyTorch Get Started <https://pytorch.org/get-started/locally/>`__,
+    and then installing the matching PyG wheels.
+
+    The suffix in ``pyg_lib`` (e.g. ``+pt21cu118``, ``+pt21cu121``, ``+pt21cpu``)
+    must match the PyTorch build you install; otherwise you may encounter
+    "No matching distribution found" errors.
+
 * **General Installation Command**:
 
 .. code-block:: bash
