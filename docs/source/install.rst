@@ -10,12 +10,12 @@ Start by setting up a `conda` environment. Run the following command:
 .. code-block:: bash
     :linenos:
 
-    conda create -n dirac-env python=3.9 r-base=4.3.1 rpy2 r-mclust r-yarrr
+    conda create -n dirac-env python=3.9 r-base=4.1.3 rpy2 r-mclust r-yarrr
 
 .. note::
 
    Any R version ``>= 4.1`` works.
-   We use ``r-base=4.3.1`` in the example above.
+   We use ``r-base=4.1.3`` in the example above.
 
 Step 2: Install PyTorch and PyG
 -------------------------------
