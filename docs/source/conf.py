@@ -75,4 +75,3 @@ nbsphinx_thumbnails = {
     "notebooks/run-AD-samples": "_static/tutorial_figs/AD.png",
     "notebooks/DBit-seq-reproduce": "_static/tutorial_figs/notebooks_run_DIRAC_DBit-seq_22_0.png",
 }
-}
