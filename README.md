@@ -40,9 +40,9 @@ To install DIRAC, make sure you have [PyTorch](https://pytorch.org/) and [PyG](h
 
 ### Step 1: Set Up Conda Environment
 ```
-conda create -n dirac-env python=3.9 r-base=4.3.1 rpy2 r-mclust r-yarrr
+conda create -n dirac-env python=3.9 r-base=4.1.3 rpy2 r-mclust r-yarrr
 ```
-> - **R version:** Any R version `>= 4.1` works. We use `r-base=4.3.1` in the example above.
+> - **R version:** Any R version `>= 4.1` works. We use `r-base=4.1.3` in the example above.
 
 ### Step 2: Install PyTorch and PyG
 
