@@ -1,6 +1,5 @@
 # DIRAC (Domain Invariant Representation through Adaptive Calibration)
 
-[![Paper](https://img.shields.io/badge/Paper-Nature%20Methods-blue)](https://doi.org/10.1038/s41592-026-03282-9)
 [![stars-badge](https://img.shields.io/github/stars/boxiangliulab/DIRAC?logo=GitHub&color=yellow)](https://github.com/boxiangliulab/DIRAC/stargazers)
 [![pypi-badge](https://img.shields.io/pypi/v/sodirac)](https://pypi.org/project/sodirac)
 [![docs-badge](https://readthedocs.org/projects/scglue/badge/?version=latest)](https://rundirac.readthedocs.io/en/latest/?badge=latest)
@@ -20,7 +19,7 @@ DIRAC primarily includes two integration paradigms: vertical integration and hor
 
 ![Model architecture](https://raw.githubusercontent.com/boxiangliulab/DIRAC/main/docs/source/_static/Workflow.png)
 
-For more details, please check out our [publication](https://github.com/EsdenRun/DIRAC).
+For more details, please see our publication in [Nature Methods](https://doi.org/10.1038/s41592-026-03282-9).
 
 ## Directory structure
 
