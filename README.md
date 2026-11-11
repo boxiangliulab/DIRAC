@@ -1,4 +1,4 @@
-# DIRAC (Domain Invariant Respresentation through Adversatial Calibration)
+# DIRAC (Domain Invariant Representation through Adaptive Calibration)
 
 [![stars-badge](https://img.shields.io/github/stars/boxiangliulab/DIRAC?logo=GitHub&color=yellow)](https://github.com/boxiangliulab/DIRAC/stargazers)
 [![pypi-badge](https://img.shields.io/pypi/v/sodirac)](https://pypi.org/project/sodirac)
