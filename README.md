@@ -1,5 +1,6 @@
 # DIRAC (Domain Invariant Representation through Adaptive Calibration)
 
+[![Paper](https://img.shields.io/badge/Paper-Nature%20Methods-blue)](https://doi.org/10.1038/s41592-026-03282-9)
 [![stars-badge](https://img.shields.io/github/stars/boxiangliulab/DIRAC?logo=GitHub&color=yellow)](https://github.com/boxiangliulab/DIRAC/stargazers)
 [![pypi-badge](https://img.shields.io/pypi/v/sodirac)](https://pypi.org/project/sodirac)
 [![docs-badge](https://readthedocs.org/projects/scglue/badge/?version=latest)](https://rundirac.readthedocs.io/en/latest/?badge=latest)
