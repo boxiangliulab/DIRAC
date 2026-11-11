@@ -102,3 +102,24 @@ pip install torch_geometric==2.3.1
 
 Please checkout the documentations and tutorials at
 [dirac.readthedocs.io](https://dirac-tutorial.readthedocs.io/en/latest/) and [dirac.reproducing.io](https://github.com/boxiangliulab/DIRAC_notebook).
+
+
+## Citation
+
+If you use DIRAC in your research, please cite our paper:
+
+Xu, C., Liu, S., Heng, Y. et al. Integration and annotation of spatial multi-omic data with DIRAC. *Nature Methods* (2026). https://doi.org/10.1038/s41592-026-03282-9
+
+### BibTeX
+
+```bibtex
+@article{Xu2026DIRAC,
+  title   = {Integration and annotation of spatial multi-omic data with DIRAC},
+  author  = {Xu, Chang and Liu, Shibo and Heng, Yang and others},
+  journal = {Nature Methods},
+  year    = {2026},
+  doi     = {10.1038/s41592-026-03282-9},
+  url     = {https://doi.org/10.1038/s41592-026-03282-9}
+}
+```
+
